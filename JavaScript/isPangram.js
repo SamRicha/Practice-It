@@ -1,3 +1,10 @@
+/*
+ *  Write a function named isPangram that accepts a string and returns true if the string is a pangram. 
+ *  A pangram is any phrase that contains at least one of each of the 26 letters in the English alphabet 
+ *  (ignoring letter-casing). For example, a call to isPangram("The quick brown fox jumps over a lazy dog.") 
+ *  should return true since it includes all 26 letters of the English alphabet (duplicate letters can be ignored).
+ */
+
 function isPangram(word){
     var letterA, letterB, letterC, letterD, letterE, letterF, letterG, letterH, letterI, letterJ, letterK,
         letterL, letterM, letterN, letterO, letterP, letterQ, letterR, letterS, letterT, letterU, letterV,
